@@ -20,3 +20,5 @@ It is a double security vault. It first reads whether a security card (RFID chip
 |Week 8||
 
 
+## Thanks to
+<img src="./Images/polytech.png" alt="polytech" width=10% /> & <img src="./Images/arduino.png" alt="arduino uno" width=10% />
