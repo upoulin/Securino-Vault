@@ -5,7 +5,7 @@ In collaboration with : [**@DavRide**](https://github.com/davride)
 
 ## Description
 
-It is a double security vault. It first reads whether a security card (RFID chip) is valid and then outputs a digital code using a motor. Please find attached our plans for this vault. It will be possible to change the code and block the box after **n** attempts.
+It is a double security vault. It first reads whether a security card (RFID chip) is valid and then outputs a digital code using a motor. It will be possible to change the code and block the box after **n** attempts.
 
 ## Schedule
 |                |Accomplished tasks
