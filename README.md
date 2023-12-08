@@ -1,7 +1,7 @@
 # Securino Vault
 
 Secure vault created in arduino for school.
-In collaboration with : **@DavRide**
+In collaboration with : [**@DavRide**](https://github.com/davride)
 
 ## Description
 
