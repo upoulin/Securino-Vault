@@ -9,4 +9,4 @@
  - ##### Mise en place du projet
  - ##### Commencement de la mise en place de la liste du materiel
  - ##### Test des composants (digicode et moteur David s'est occupé du RFID)
- ![Composants](../Images/digicode_moteur.jpg)
+<img src="../Images/digicode_moteur.png" alt="composants" width=10% />
