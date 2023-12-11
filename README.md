@@ -10,7 +10,7 @@ It is a double security vault. It first reads whether a security card (RFID chip
 ## Schedule
 |                |Accomplished tasks
 |----------------|------------------------------------------|
-|Week 1||
+|Week 1|Liste et test du matériel, création du CDC|
 |Week 2||
 |Week 3||
 |Week 4||
