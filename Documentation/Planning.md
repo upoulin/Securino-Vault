@@ -1,4 +1,4 @@
-## Specifications
+## Schedule
 |                | To do
 |----------------|------------------------------------------|
 |Week 1|CDC, liste des matériels avec fonctions et leur fonctionnement détaillé|
