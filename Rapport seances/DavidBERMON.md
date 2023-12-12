@@ -1,9 +1,8 @@
-*******************
-# Report 
-*******************
-## Séance du 11 Décembre
- - ##### Demande du matériel
- - ##### Mise en place du projet
- - ##### Etablissement du [Cahier des Charges](../Documentation/CahierDesCharges.md)
- - ##### Etablissement de la [Liste du Materiel](../Documentation/ListeMatériel.md)
- - ##### Test des composants : Lecteur RFID et Buzzer
+# Rapports de Séances : David Bermon
+## Séance 1 :  11 Décembre 2023
+ - Mise en place du projet.
+ 
+ - Etablissement du [Cahier des Charges et Fonctions](../Documentation/CahierDesCharges.md) (non définitif).
+ - Etablissement de la [Liste du Materiel](../Documentation/ListeMatériel.md) (non définitive).
+ - Demande du matériel.
+ - Test des composants : Lecteur RFID et Buzzer.
