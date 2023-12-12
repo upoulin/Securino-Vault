@@ -2,8 +2,8 @@
 - Sécuriser des objets mis à l'intérieur du coffre.
   
 - Controler l'accès et l'ouverture coffre par badge RFID puis par un clavier à code.
-- Empécher que les objets stockés ne restent bloqués dans le coffre en cas de coupure électrique.
-- Avertissement d'intrusion dans le coffre. 
+- Avertissement d'intrusion dans le coffre.
+- Empécher que les objets stockés ne restent bloqués dans le coffre en cas de coupure électrique. 
 
 
 # Fonctions : 
