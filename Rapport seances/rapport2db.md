@@ -1,0 +1,8 @@
+- Changement orientation coffre : plusieurs raisons pratiques ...
+- Tout mettre dans la porte
+- Dimensions porte
+- Calcul servo axe et dessin voir cahier
+- Comment mesuré niveau batterie : pont diviseur
+- Modif matos : résistance , batterie
+- Dimensions de porte
+- I2C
