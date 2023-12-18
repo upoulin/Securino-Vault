@@ -28,7 +28,7 @@ char hexaBouton[Ligne][Colonne] = {
   { '*', '0', '#', 'D' }
 };
 
-char code[5];                                 // Contient les touches tapées par l'utilisateur
+char code[4];                                 // Contient les touches tapées par l'utilisateur
 byte Ligne_Pins[Ligne] = { 9, 8, 7, 6 };      // Connecte la ligne du digicode
 byte Colonne_Pins[Colonne] = { 5, 4, 3, 2 };  // Connecte la colonne du digicode
 // Initialise la librairie avec nos paramètres (la taille de la matrice et symboles)
@@ -79,6 +79,7 @@ void loop() {
       
       char keypad_matrix = mon_keypad.getKey();  // Récupère la touche appuyé
       if (keypad_matrix){
+        //vérifier si le code contient bien que des nombres et # et *
         Serial.println(keypad_matrix);
 
         secretCode[compteur] = keypad_matrix;  // Met la valeur dans la liste
