@@ -9,5 +9,6 @@
  -  B : Verrouiller le coffre
  -  C : Changer le code (seulement quand le coffre est dévérouillé)
  -  D : Valider le code entrée
- -  ##### Arduino grillé
-<img src="../Images/digicode_moteur2.jpg" alt="composants" width=40% />
+ -  ##### Arduino grillé car servo moteur branché en 5V... donc fin des test vers 15h45 ;(
+ -  ##### Pour les prochaines séances, je prendrais l'arduino de Mr Bermon pour prototyper
+<img src="../../Images/digicode_moteur2.jpg" alt="composants" width=40% />
