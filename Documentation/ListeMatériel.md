@@ -6,3 +6,6 @@
 - 2 Servo Moteurs
 - 1 Buzzer
 - 1 Batterie (caractéristiques à déterminer)
+______
+- 2 Résistances (Pont diviseur pour mesure de batterie)
+- 1 Breadboard
