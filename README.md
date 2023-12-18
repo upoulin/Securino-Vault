@@ -11,7 +11,7 @@ It is a double security vault. It first reads whether a security card (RFID chip
 |                |Accomplished tasks
 |----------------|------------------------------------------|
 |Week 1|Liste et test du matériel, création du CDC|
-|Week 2||
+|Week 2|Implémentation des fonctions et dimensions/dessin|
 |Week 3||
 |Week 4||
 |Week 5||
