@@ -14,6 +14,11 @@ Le fait d'avoir changé l'orientation du coffre, va nous permettre aussi d'optmi
 Mesure du niveau de batterie :
 Nous ne nous étions pas vraiment penchés sur la question avant, mais il est nécessaire que nous puissions mesurer le niveau de batterie pour éviter tout blocage du coffre (cf : Cahier des Charges). En regardant sur internet, nous avons vu qu'il était possible du mesurer la tensions à l'aide de 2 résistances en formant un pont diviseur de tension. Selon les spécificités de la batterie, il faudra choisir les résistances, R1 et R2 telles que la tension mesurée analogiquement sur R1 ne dépasse pas 5 volts pour éviter de brûler une deuxième carte Arduino ;) 
 
+Utilisation d'une "Breadboard" :
+Au vu du nombre de composants utilisés, il nous sera necéssaire d'utiliser une breadboard pour notamment les résistances nécessaires aux LEDS et à a mesure de la batterie. Il nous faudra donc agir en fonction pour l'agencement des composants dans la porte.
+
+Manque de pins de la carte Arduino :
+Durant la séance nous nous sommes rendus compte que les pins disponibles viendront à manquer si l'on veut connecter l'entierté des composants à une seule carte. Nous pensions d'abord opter pour une carte Arduino MEGA plutôt que R3, celle-ci disposant de plus de pins, mais cela nous a été refusé par un des professeurs. Une autre mission durant la séance, qui nous a fait prendre du retard, était désormais de trouver un moyen d'optimiser le nombre de pins utilisés, nottament par le clavier à code, et le lecteur RFID
 
 - Dimensions porte
 - Calcul servo axe et dessin voir cahier
