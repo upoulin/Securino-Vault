@@ -21,6 +21,9 @@
 - **Toutes ces fonctions marchent**
   Les tests ont confirmé que toutes les fonctions ont été implémentées avec succès, et le code correspondant est disponible dans la documentation.
 
+- **Configuration de la breadboard et reflexion autour du nombre d'I/O**
+  Nous avons réalisé qu'il allait nous manquer des I/O sur la carte arduino uno. Nous avons alors essayé de trouver une solution. Premierement, on a pensé a prendre un arduino mega mais considérant cette méthode trop "bourrine" nous nous pencherons alors sur une solution visant a réduire le nombre de pin mobilisés du lecteur RFID mais aussi du digicode grace au protocole i2s.
+  
 - **Problème avec l'Arduino**
   Malheureusement, l'Arduino a été endommagé lors de la séance, car le servo-moteur était connecté à la sortie 5V de la carte Arduino. Les tests ont été interrompus vers 15h45.
 
