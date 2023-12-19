@@ -18,7 +18,9 @@ Utilisation d'une "Breadboard" :
 Au vu du nombre de composants utilisés, il nous sera necéssaire d'utiliser une breadboard pour notamment les résistances nécessaires aux LEDS et à a mesure de la batterie. Il nous faudra donc agir en fonction pour l'agencement des composants dans la porte.
 
 Manque de pins de la carte Arduino :
-Durant la séance nous nous sommes rendus compte que les pins disponibles viendront à manquer si l'on veut connecter l'entierté des composants à une seule carte. Nous pensions d'abord opter pour une carte Arduino MEGA plutôt que UNO, celle-ci disposant de plus de pins, mais cela nous a été refusé par un des professeurs. Une nouvelle mission s'est alors ajouté à ma séance, ce qui m'a fait prendre du retard. Je devais désormais trouver un moyen d'optimiser le nombre de pins utilisés, nottament par le clavier à code, et le lecteur RFID, afin de libérer 2 pins. Le professeur m'a ensuite demander de voir si il n'était pas possible de passer par un module I2C, ce qui nous permettrait de sauvgarder 3 pins
+Durant la séance nous nous sommes rendus compte que les pins disponibles viendront à manquer si l'on veut connecter l'entierté des composants à une seule carte. Nous pensions d'abord opter pour une carte Arduino MEGA plutôt que UNO, celle-ci disposant de plus de pins, mais cela nous a été refusé par un des professeurs. Une nouvelle mission s'est alors ajouté à ma séance, ce qui m'a fait prendre du retard. Je devais désormais trouver un moyen d'optimiser le nombre de pins utilisés, nottament par le clavier à code, et le lecteur RFID, afin de libérer 2 pins. Le professeur m'a ensuite dit que dans le "pire des cas", il serait possible de passer par un module I2C, ce qui nous permettrait de sauvgarder 3 pins sur la carte. Or jusqu'à la fin de la séance j'ai cherché sur Internet comment faire sans, et finalement je n'ai pas demandé le module, ce qui fait que je ne peux pas travailler complètement l'agencement du de la porte et des pièces à l'intérieur. 
+
+
 
 - Dimensions porte
 - Calcul servo axe et dessin voir cahier
