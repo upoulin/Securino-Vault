@@ -33,5 +33,5 @@ Dépendants principalement de la porte, nous pourrons déterminer les dimensions
 Nous comptons aussi nous aider des standards déjà existants afin d'avoir un point de repère.
 
 ### Premiers dessins :
-
+ <img src="../../Images/aperçu_coffre.jpg" alt="dessin du coffre" width=40% />
 
