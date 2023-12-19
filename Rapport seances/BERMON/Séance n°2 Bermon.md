@@ -2,7 +2,7 @@
 
 Objectifs de cette séance: 
 - Continuer la réflexion sur l'architecture et le fonctionnement du coffre.
-- Faire les dimensions et les dessins des pièces nécessaires à la création et à son fonctionnement.
+- Faire les dimensions et les premiers dessins des pièces nécessaires à la création et à son fonctionnement.
 
 Architechture et Fonctionnement du coffre :
 Orientation du coffre :
@@ -11,7 +11,8 @@ Lorsque nous avons choisi de fabriquer notre coffre fort, une des spécificités
 Disposition des éléments :
 Le fait d'avoir changé l'orientation du coffre, va nous permettre aussi d'optmiser la disposition des divers composants. Ces derniers pourront normalement tous être incorporés dans la porte et ainsi éviter les fils apparents, ou autres potentiels problèmes liés à la dispertion des composants. Cela facilite la conception et fait que l'on développe principalement une porte / trappe sécurisée, vissée simplement sur un coffre. Notons aussi que ce choix permet de sécuriser la batterie à l'intérieur de la porte, et qu'elle puisse être changée facilement, uniquement quand le coffre est dévérouillé.
 
-
+Mesure du niveau de batterie :
+Nous ne nous étions pas vraiment penché sur la question avant, mais il est nécessaire que nous puissions mesurer le niveau de batterie pour éviter tout blocage du coffre (cf : Cahier des Charges). En regardant sur internet, nous avons vu qu'il était possible du mesurer la tensions à l'aide de 2 résistances en formant un pont diviseur de tension. Selon les spécificités de la batterie, il faudra choisir les résistances, R1 et R2 telles que la tension mesurée analogiquement sur R1 ne dépasse pas 5 volts pour éviter de brûler une deuxième carte Arduino ;) 
 
 
 - Changement orientation coffre : plusieurs raisons pratiques ...
