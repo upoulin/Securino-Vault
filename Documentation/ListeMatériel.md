@@ -6,6 +6,6 @@
 - 2 Servo Moteurs
 - 1 Buzzer
 - 1 Batterie (caractéristiques à déterminer)
-______
-- 2 Résistances (Pont diviseur pour mesure de batterie)
+- 3 LEDS : Rouge, Orange, Verte
+- 2 + 3 Résistances (Pont diviseur + LEDS)
 - 1 Breadboard
