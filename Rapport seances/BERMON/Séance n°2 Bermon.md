@@ -32,6 +32,6 @@ Durant la séance nous nous sommes rendus compte que les pins disponibles viendr
 Dépendants principalement de la porte, nous pourrons déterminer les dimensions du coffre lorsque celles de la porte seront terminées.
 Nous comptons aussi nous aider des standards déjà existants afin d'avoir un point de repère.
 
-### Premiers dessins :
+#### Premiers dessins :
  <img src="../../Images/aperçu_coffre.jpg" alt="dessin du coffre" width=40% />
 
