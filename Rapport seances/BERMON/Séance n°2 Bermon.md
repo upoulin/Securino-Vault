@@ -18,7 +18,7 @@ Utilisation d'une "Breadboard" :
 Au vu du nombre de composants utilisés, il nous sera necéssaire d'utiliser une breadboard pour notamment les résistances nécessaires aux LEDS et à a mesure de la batterie. Il nous faudra donc agir en fonction pour l'agencement des composants dans la porte.
 
 Manque de pins de la carte Arduino :
-Durant la séance nous nous sommes rendus compte que les pins disponibles viendront à manquer si l'on veut connecter l'entierté des composants à une seule carte. Nous pensions d'abord opter pour une carte Arduino MEGA plutôt que R3, celle-ci disposant de plus de pins, mais cela nous a été refusé par un des professeurs. Une autre mission durant la séance, qui nous a fait prendre du retard, était désormais de trouver un moyen d'optimiser le nombre de pins utilisés, nottament par le clavier à code, et le lecteur RFID
+Durant la séance nous nous sommes rendus compte que les pins disponibles viendront à manquer si l'on veut connecter l'entierté des composants à une seule carte. Nous pensions d'abord opter pour une carte Arduino MEGA plutôt que UNO, celle-ci disposant de plus de pins, mais cela nous a été refusé par un des professeurs. Une nouvelle mission s'est alors ajouté à ma séance, ce qui m'a fait prendre du retard. Je devais désormais trouver un moyen d'optimiser le nombre de pins utilisés, nottament par le clavier à code, et le lecteur RFID, afin de libérer 2 pins. Le professeur m'a ensuite demander de voir si il n'était pas possible de passer par un module I2C, ce qui nous permettrait de sauvgarder 3 pins
 
 - Dimensions porte
 - Calcul servo axe et dessin voir cahier
