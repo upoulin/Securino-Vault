@@ -15,7 +15,7 @@ Mesure du niveau de batterie :
 Nous ne nous étions pas vraiment penchés sur la question avant, mais il est nécessaire que nous puissions mesurer le niveau de batterie pour éviter tout blocage du coffre (cf : Cahier des Charges). En regardant sur internet, nous avons vu qu'il était possible du mesurer la tensions à l'aide de 2 résistances en formant un pont diviseur de tension. Selon les spécificités de la batterie, il faudra choisir les résistances, R1 et R2 telles que la tension mesurée analogiquement sur R1 ne dépasse pas 5 volts pour éviter de brûler une deuxième carte Arduino ;) 
 
 Utilisation d'une "Breadboard" :
-Au vu du nombre de composants utilisés, il nous sera necéssaire d'utiliser une breadboard pour notamment les résistances nécessaires aux LEDS et à a mesure de la batterie. Il nous faudra donc agir en fonction pour l'agencement des composants dans la porte.
+Au vu du nombre de composants utilisés, il nous sera necéssaire d'utiliser une breadboard pour notamment les résistances nécessaires aux LEDS et à a mesure de la batterie. Il nous faudra donc agir en fonction pour l'agencement des composants dans la porte. Malheureusement, les dimensions données par la suite ont étaient estimés avant d'avoir considéré l'utilisation de la breadboard.
 
 Manque de pins de la carte Arduino :
 Durant la séance nous nous sommes rendus compte que les pins disponibles viendront à manquer si l'on veut connecter l'entierté des composants à une seule carte. Nous pensions d'abord opter pour une carte Arduino MEGA plutôt que UNO, celle-ci disposant de plus de pins, mais cela nous a été refusé par un des professeurs. Une nouvelle mission s'est alors ajouté à ma séance, ce qui m'a fait prendre du retard. Je devais désormais trouver un moyen d'optimiser le nombre de pins utilisés, nottament par le clavier à code, et le lecteur RFID, afin de libérer 2 pins. Le professeur m'a ensuite dit que dans le "pire des cas", il serait possible de passer par un module I2C, ce qui nous permettrait de sauvgarder 3 pins sur la carte. Or jusqu'à la fin de la séance j'ai cherché sur Internet comment faire sans, et finalement je n'ai pas demandé le module, ce qui fait que je ne peux pas travailler complètement l'agencement du de la porte et des pièces à l'intérieur. 
@@ -23,16 +23,13 @@ Durant la séance nous nous sommes rendus compte que les pins disponibles viendr
 
 
 Dimensions et les premiers dessins :
-Dimensions de la porte (avant ajout de la breadboard, donc celles-ci sont éronnées) :
+Dimensions de la porte (avant ajout de la breadboard, donc celles-ci sont éronnées)(A refaire) :
 Hauteur : ~ 24 cm. Largeur de la carte arduino ( ~ 5,5 cm ) + 2 fois la hauteur du clavier (Clavier + Panneau) (2 x 8cm ) + espaces supplémentaires.
 Largeur : ~ 12 cm. Longueur de la carte Arduino ( ~ 8 cm ) + espaces supplémentaires.
 Epaisseur : ~ 5 cm. Epaisseur du servo-moteur ( ~ 3 cm ) + espaces supplémentaires.
  
+Dimensions du coffre :
+Dépendants principalement de la porte, nous pourrons déterminer les dimensions du coffre lorsque celles de la porte seront terminées.
+Nous comptons aussi nous aider des standards déjà existants afin d'avoir un point de repère.
 
 
-
-
-- Dimensions porte
-- Calcul servo axe et dessin voir cahier
-- Dimensions de porte
-- I2C
