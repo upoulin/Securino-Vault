@@ -14,7 +14,7 @@ Recherche sur Internet du fonctionnement et de la programmation du module. Aprè
 Recontage du nombre de pins utilisables, et du nombre de pins à utiliser. Je me suis rendu compte que finalement il ne nous manquait que 2 pins sur la carte pour pouvoir brancher les composants comme prévus. Ayant abandonné le module I2C, nous avons décidé de supprimer 2 des 3 LEDS prévues au départ (ainsi que 2 résistances par conséquent). Nous n'en garderons qu'une pour tout de même répondre au besoin du [Cahier des Charges](../Documentation/CahierDesCharges.md), à savoir : "Indication lumineuse et sonore lors des controles".
 
 ### Changement du sens d'ouverture de la porte :
-D'après de nombreuses photos sur Internet, beaucoup de coffres semblent avoir une porte s'ouvrant à gauche avec une charnière à droite. Même si cela ne semble pas être un standard, nous avons quand-même décidé de changer le sens d'ouverture, initialement prévu vers la gauche, pour une ouverture vers la droite. Le schéma donné dans le rapport précédent n'est donc plus valide, (nouveau schéma : voir plus bas).
+D'après de nombreuses photos sur Internet, beaucoup de coffres semblent avoir une porte s'ouvrant à gauche avec une charnière à droite. Même si cela ne semble pas être un standard, nous avons quand-même décidé de changer le sens d'ouverture, initialement prévu vers la gauche, pour une ouverture vers la droite. Le servo dédié au mouvement du loquet sera donc placé à gauche. Le schéma donné dans le rapport précédent n'est donc plus valide, (nouveau schéma : voir plus bas).
 
 ### Système de coulisse pour le cache du clavier :
 Comme expliqué dans le rapport précédent, une fois la validation RFID effectuée, un panneau cachant initialement le clavier se levera pour dévoiler celui-ci. Nous devons élaborer un système pouvant faire monter puis descendre le panneau à l'aide d'un servo moteur et d'un cable.
@@ -25,5 +25,5 @@ Sachant que la hauteur du cache (et du clavier) est d'environ 8cm, et ayant beso
 La retombée du cache se fera grace à son poids et par une demi rotation du servo dans le sens inverse.
 
 ### Décalage du lecteur RFID :
-Avec le déplacement du cache vers le haut, il sera plus pratique de décalé le lecteur RFID pour laisser de la place au cache, sans devoir gérer la supperposition des deux.
+Avec le déplacement du cache vers le haut, il est plus pratique de décaler le lecteur RFID pour laisser de la place au cache, sans devoir gérer la supperposition des deux.
 
