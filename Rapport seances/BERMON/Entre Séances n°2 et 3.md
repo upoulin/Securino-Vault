@@ -27,3 +27,6 @@ La retombée du cache se fera grace à son poids et par une demi rotation du ser
 ### Décalage du lecteur RFID :
 Avec le déplacement du cache vers le haut, il est plus pratique de décaler le lecteur RFID pour laisser de la place au cache, sans devoir gérer la supperposition des deux.
 
+### Alimentation : Coupleur ou simple pile ? :
+N'étant pour l'instant pas sûre de comment va être alimenté le coffre, j'ai décidé de prendre le cas le plus encombrant qui est celui d'un coupleur de 3 piles AA de 1,5V chacune. Ses dimensions sont du 58 x 48 x 17 mm. Celui devra être proche de la carte car le cable n'est pas très long donc sur le bas de la porte et sur le coté gauche de manière à pouvoir changer plus facilement les piles avec l'ouverture de la porte se faisant sur la droite.
+
