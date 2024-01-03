@@ -17,12 +17,13 @@ Recontage du nombre de pins utilisables, et du nombre de pins à utiliser. Je me
 D'après de nombreuses photos sur Internet, beaucoup de coffres semblent avoir une porte s'ouvrant à gauche avec une charnière à droite. Même si cela ne semble pas être un standard, nous avons quand-même décidé de changer le sens d'ouverture, initialement prévu vers la gauche, pour une ouverture vers la droite. Le schéma donné dans le rapport précédent n'est donc plus valide, (nouveau schéma : voir plus bas).
 
 ### Système de coulisse pour le cache du clavier :
-Comme expliqué dans le rapport précédent, une fois la validation RFID effectuée, un panneau cachant initialement le clavier se levera pour dévoiler celui-ci. Nous devons élaborer un système pouvant faire monter puis descendre le panneau à l'aide d'un servo moteur et d'un cable/ficelle.
+Comme expliqué dans le rapport précédent, une fois la validation RFID effectuée, un panneau cachant initialement le clavier se levera pour dévoiler celui-ci. Nous devons élaborer un système pouvant faire monter puis descendre le panneau à l'aide d'un servo moteur et d'un cable.
 Après quelques temps de réflexion, j'en suis venu à la modélisation du système suivant : 
 (photo)
-Un servo moteur, placé nécessairement excentré de la porte, tire le cable/ficelle relié au panneau verticalement puis horizontalement. Le servo SG90 ne pouvant effectuer qu'une rotation maximum de 180°, nous devons donc relier le servo et le cable à une roue de diamètre suffisant pour que en une demi-rotation maximum, le cache soit completement levé. 
-Sachant que la hauteur de cache (et du clavier) est d'environ 8cm, et ayant besoin que la roue soit le plus petit possible, il faut donc qu'en un demi-périmètre, la corde effectue 8cm. Soit une roue de 16cm de périmètre et donc de diamètre 5cm environ.
-La retombée du cache se fera par une demi rotation dans le sens inverse et par le poids de celui-ci.
+Un servo moteur, décalé par rapport à la vericale centrale de la porte, tire le cable relié au panneau, verticalement puis horizontalement grace à un axe. Le servo SG90 ne pouvant effectuer qu'une rotation maximum de 180°, nous devons donc relier le servo et le câble à une roue de diamètre suffisant pour que en une demi-rotation maximum, le cache soit completement levé. 
+Sachant que la hauteur du cache (et du clavier) est d'environ 8cm, et ayant besoin que la roue soit le plus petit possible, il faut donc qu'en un demi-périmètre, la corde effectue 8cm. Soit une roue de 16cm de périmètre et donc de diamètre 5cm environ, d'après : Périmètre = PI * Diamètre
+La retombée du cache se fera grace à son poids et par une demi rotation du servo dans le sens inverse.
 
-
+### Décalage du lecteur RFID :
+Avec le déplacement du cache vers le haut, il sera plus pratique de décalé le lecteur RFID pour laisser de la place au cache, sans devoir gérer la supperposition des deux.
 
