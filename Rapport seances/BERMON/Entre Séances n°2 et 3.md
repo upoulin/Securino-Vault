@@ -21,12 +21,16 @@ Comme expliqué dans le rapport précédent, une fois la validation RFID effectu
 Après quelques temps de réflexion, j'en suis venu à la modélisation du système suivant : 
 (photo)
 Un servo moteur, décalé par rapport à la vericale centrale de la porte, tire le cable relié au panneau, verticalement puis horizontalement grace à un axe. Le servo SG90 ne pouvant effectuer qu'une rotation maximum de 180°, nous devons donc relier le servo et le câble à une roue de diamètre suffisant pour que en une demi-rotation maximum, le cache soit completement levé. 
-Sachant que la hauteur du cache (et du clavier) est d'environ 8cm, et ayant besoin que la roue soit le plus petit possible, il faut donc qu'en un demi-périmètre, la corde effectue 8cm. Soit une roue de 16cm de périmètre et donc de diamètre 5cm environ, d'après : Périmètre = PI * Diamètre
+Sachant que la hauteur du cache (et du clavier) est de 7,6cm , et ayant besoin que la roue soit le plus petit possible, il faut donc qu'en un demi-périmètre, la corde effectue 7,6cm. Soit une roue de 15,2cm de périmètre et donc de diamètre 4,9 environ arrondi à 5cm, d'après : Périmètre = PI * Diamètre
 La retombée du cache se fera grace à son poids et par une demi rotation du servo dans le sens inverse.
 
 ### Décalage du lecteur RFID :
 Avec le déplacement du cache vers le haut, il est plus pratique de décaler le lecteur RFID pour laisser de la place au cache, sans devoir gérer la supperposition des deux.
 
 ### Alimentation : Coupleur ou simple pile ? :
-N'étant pour l'instant pas sûre de comment va être alimenté le coffre, j'ai décidé de prendre le cas le plus encombrant qui est celui d'un coupleur de 3 piles AA de 1,5V chacune. Ses dimensions sont du 58 x 48 x 17 mm. Celui devra être proche de la carte car le cable n'est pas très long donc sur le bas de la porte et sur le coté gauche de manière à pouvoir changer plus facilement les piles avec l'ouverture de la porte se faisant vers la droite.
+N'étant pour l'instant pas sûre de comment va être alimenté le coffre, j'ai décidé de prendre le cas le plus encombrant qui est celui d'un coupleur de 3 piles AA de 1,5V chacune. Ses dimensions sont du 58 x 48 x 17 mm. Celui devra être proche de la carte car le cable n'est pas très long donc sur le bas de la porte et sur le coté gauche de manière à pouvoir changer plus facilement les piles avec l'ouverture de la porte se faisant vers la droite. Une petite trappe sur la face intérieur de la porte sera conçue pour y accéder.
 
+### Fabrication d'une maquette taille réelle en carton :
+La porte devrait être fabriquée en 2 "panneaux". Le premier qui sera la face avant, où seront attachés tous les composants, et le deuxième qui fermera le tout en étant vissé à l'arrière, depuis l'intérieur du coffre.
+Sur les photos, ne figure que le premier panneau. Il manque les 2 servos moteur (sur la roue, et à droite pour le verrou) qui devront avoir un support spécifique pour s'accrocher à la face avant. Le cablâge n'est pas complet, nous voulons juste avoir une vue d'ensemble de la disposition des composants. 
+Si nous nous basons sur cette maquette, les dimensions de la porte seraient : 20 x 30 x 5 cm
