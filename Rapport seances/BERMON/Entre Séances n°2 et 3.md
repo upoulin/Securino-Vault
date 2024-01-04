@@ -19,11 +19,11 @@ D'après de nombreuses photos sur Internet, beaucoup de coffres semblent avoir u
 ### Système de coulisse pour le cache du clavier :
 Comme expliqué dans le rapport précédent, une fois la validation RFID effectuée, un panneau cachant initialement le clavier se levera pour dévoiler celui-ci. Nous devons élaborer un système pouvant faire monter puis descendre le panneau à l'aide d'un servo moteur et d'un cable.
 Après quelques temps de réflexion, j'en suis venu à la modélisation du système suivant : 
-(photo)
+<img src="../../Images/schema_coulisse.jpg" alt="dessin du coffre" width=40% />
 Un servo moteur, décalé par rapport à la vericale centrale de la porte, tire le cable relié au panneau, verticalement puis horizontalement grace à un axe. Le servo SG90 ne pouvant effectuer qu'une rotation maximum de 180°, nous devons donc relier le servo et le câble à une roue de diamètre suffisant pour que en une demi-rotation maximum, le cache soit completement levé. 
 Sachant que la hauteur du cache (et du clavier) est de 7,6cm , et ayant besoin que la roue soit le plus petit possible, il faut donc qu'en un demi-périmètre, la corde effectue 7,6cm. Soit une roue de 15,2cm de périmètre et donc de diamètre 4,9 environ arrondi à 5cm, d'après : Périmètre = PI * Diamètre
 
-La retombée du cache se fera grace à son poids et par une demi rotation du servo dans le sens inverse.
+La retombée du cache se fera grâce à son poids et par une demi rotation du servo dans le sens inverse.
 
 ### Décalage du lecteur RFID :
 Avec le déplacement du cache vers le haut, il est plus pratique de décaler le lecteur RFID pour laisser de la place au cache, sans devoir gérer la supperposition des deux.
