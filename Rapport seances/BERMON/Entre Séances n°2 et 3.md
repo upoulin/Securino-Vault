@@ -25,7 +25,7 @@ Un servo moteur, décalé par rapport à la vericale centrale de la porte, tire 
 Sachant que la hauteur du cache (et du clavier) est de 7,6cm , et ayant besoin que la roue soit le plus petit possible, il faut donc qu'en un demi-périmètre, la corde effectue 7,6cm.  
 
 
-Soit une roue de 15,2cm de périmètre et donc de diamètre 4,9 environ arrondi à 5cm, d'après : Périmètre = PI * Diamètre  
+Soit une roue de 15,2cm de périmètre et donc de **diamètre 4,9 environ arrondi à 5cm**, d'après : Périmètre = PI * Diamètre  
 
 La retombée du cache se fera grâce à son poids et par une demi rotation du servo dans le sens inverse.
 \
@@ -43,7 +43,7 @@ La porte devrait être fabriquée en 2 "panneaux". Le premier qui sera la face a
 
 Sur les photos, ne figure que le premier panneau. Il manque les 2 servos moteur, sur la roue, et à droite (photo de droite) pour le verrou, qui devront avoir un support spécifique pour s'accrocher à la face avant. Le cablâge n'est pas complet, nous voulons juste avoir une vue d'ensemble de la disposition des composants. 
 
-Si nous nous basons sur cette maquette, les nouvelles dimensions de la porte seraient : (20+2x2) x (30+2x2) x (5+2x2) cm avec des plaques de 2 cm d'épaisseur. Elles peuvent encore varier selon l'épaisseur des plaques de bois qui seront utilisées.
+Si nous nous basons sur cette maquette, les nouvelles dimensions de la porte seraient : **(20+2x2) x (30+2x2) x (5+2x2) cm** avec des **plaques de 2 cm d'épaisseur**. Elles peuvent encore varier selon l'épaisseur des plaques de bois qui seront utilisées.
 
 <img src="../../Images/dimensions_porte_1.jpg" alt="dimensions de la porte" width=30% />
 
