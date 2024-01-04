@@ -41,6 +41,11 @@ La porte devrait être fabriquée en 2 "panneaux". Le premier qui sera la face a
 
 <img src="../../Images/panneau1_ext.jpg" alt="extérieur du premier panneau" width=30% /> <img src="../../Images/panneau1_int.jpg" alt="intérieur du premier panneau" width=30% />
 
-Sur les photos, ne figure que le premier panneau. Il manque les 2 servos moteur (sur la roue, et à droite pour le verrou) qui devront avoir un support spécifique pour s'accrocher à la face avant. Le cablâge n'est pas complet, nous voulons juste avoir une vue d'ensemble de la disposition des composants. 
+Sur les photos, ne figure que le premier panneau. Il manque les 2 servos moteur, sur la roue, et à droite (photo de droite) pour le verrou, qui devront avoir un support spécifique pour s'accrocher à la face avant. Le cablâge n'est pas complet, nous voulons juste avoir une vue d'ensemble de la disposition des composants. 
 
-Si nous nous basons sur cette maquette, les nouvelles dimensions de la porte seraient : 23 x 33 x 8 cm. Elles peuvent encore varier selon l'épaisseur des plaques qui seront utilisées (
+Si nous nous basons sur cette maquette, les nouvelles dimensions de la porte seraient : (20+2x2) x (30+2x2) x (5+2x2) cm avec des plaques de 2 cm d'épaisseur. Elles peuvent encore varier selon l'épaisseur des plaques de bois qui seront utilisées.
+
+<img src="../../Images/dimensions_porte_1.jpg" alt="dimensions de la porte" width=30% />
+
+### Prochaine séance :
+Nous ferons valider ou modifier notre maquette et notre système par les professeurs et leur demanderons le matériel nécessaire pour continuer notre projet.
