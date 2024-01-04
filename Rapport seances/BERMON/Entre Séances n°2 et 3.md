@@ -38,8 +38,9 @@ N'étant pour l'instant pas sûre de comment va être alimenté le coffre, j'ai 
 
 ### Fabrication d'une maquette taille réelle en carton :
 La porte devrait être fabriquée en 2 "panneaux". Le premier qui sera la face avant, où seront attachés tous les composants, et le deuxième qui fermera le tout en étant vissé à l'arrière, depuis l'intérieur du coffre.
-<img align="left" src="../../Images/panneau1_ext.jpg" alt="extérieur du premier panneau" width=30% />
-<img align="left" src="../../Images/panneau1_int.jpg" alt="intérieur du premier panneau" width=30% />
+
+<img src="../../Images/panneau1_ext.jpg" alt="extérieur du premier panneau" width=30% /> <img src="../../Images/panneau1_int.jpg" alt="intérieur du premier panneau" width=30% />
+
 Sur les photos, ne figure que le premier panneau. Il manque les 2 servos moteur (sur la roue, et à droite pour le verrou) qui devront avoir un support spécifique pour s'accrocher à la face avant. Le cablâge n'est pas complet, nous voulons juste avoir une vue d'ensemble de la disposition des composants. 
 
-Si nous nous basons sur cette maquette, les nouvelles dimensions de la porte seraient : 20 x 30 x 5 cm.
+Si nous nous basons sur cette maquette, les nouvelles dimensions de la porte seraient : 23 x 33 x 8 cm. Elles peuvent encore varier selon l'épaisseur des plaques qui seront utilisées (
