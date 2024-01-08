@@ -2,6 +2,7 @@ J'ai récuperé un arduino
 
 RFID et digicode doivent tout les deux etres validés sinon ca veut dire que si qqun leve la glissiere panneau a la main alors on pourrait acceder au coffre sans le rfid
 Identifiant lu est le meme que celui mis en variable
+Donc tests et reprise du code de Mr. Bermon
 
 
 souder avec fil awg32 sur un pcb pour éviter les débranchements de derniere minute avant la presentation
