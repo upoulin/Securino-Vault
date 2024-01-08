@@ -12,3 +12,5 @@ Au final on va utiliser un boitier eachtne chargeable. Il sera a l'exterieur du 
 
 Partie code :
 Quelques petites modifications du code comme par exemple les angles des servo-moteurs et test RFID avec code de Mr Berlin
+Le code hexa de la carte blanche est 12 E5 A2 34
+Le code hexa du badge bleu est E9 D1 77 C1 
