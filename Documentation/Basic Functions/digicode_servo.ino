@@ -63,7 +63,7 @@ void loop() {
       compteur = 0;
       digitalWrite(led_rouge, HIGH);
       digitalWrite(led_verte, LOW);
-      for (angle = 90; angle > 0; angle--) {
+      for (angle = 180; angle > 0; angle--) {
         servo.write(angle);
         delay(20);
       }
@@ -92,7 +92,7 @@ void loop() {
       compteur = 0;
       digitalWrite(led_rouge, HIGH);
       digitalWrite(led_verte, LOW);
-      for (angle = 90; angle > 0; angle--) {
+      for (angle = 180; angle > 0; angle--) {
         servo.write(angle);
         delay(20);
       }
@@ -103,7 +103,7 @@ void loop() {
         locked = false;
         digitalWrite(led_rouge, LOW);   // Eteint la led rouge
         digitalWrite(led_verte, HIGH);  // Allume la led verte
-        for (angle = 0; angle < 90; angle++) {
+        for (angle = 0; angle < 180; angle++) {
           servo.write(angle);
           delay(20);
         }
