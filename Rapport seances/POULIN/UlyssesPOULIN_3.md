@@ -1,17 +1,29 @@
-J'ai récuperé un arduino
+*******************
+# Rapport 
+*******************
 
-RFID et digicode doivent tout les deux etres validés sinon ca veut dire que si qqun leve la glissiere panneau a la main alors on pourrait acceder au coffre sans le rfid
-Identifiant lu est le meme que celui mis en variable
-Voir partie code
+## Séance du 8 Janvier
 
-souder avec fil awg32 sur un pcb pour éviter les débranchements de derniere minute avant la presentation
+## Acquisition de l'Arduino et Améliorations Prévues
 
-Ajouter et commander regulateur 5V et battery 3.7V (en mettre 2) et en commander avec protections pour éviter la chauffe (coffre en bois)
+Après avoir récupéré un Arduino, plusieurs ajustements et améliorations sont envisagés pour renforcer la sécurité et la fiabilité du système de coffre.
 
-Au final on va utiliser un boitier eachtne chargeable. Il sera a l'exterieur du coffre ce qui nous enleve le problematique de déverouiller le coffre quand celui ci a plus de batterie car il suffira juste de le charger pour le dévérouiller. L'accès au port de charge se fera depuis l'exterieur. Le coffre sera toujours "étanche" car il aura quand meme la protection du panneau arriere de la porte
+- **Validation simultanée de RFID et du digicode**
+  Il est essentiel de garantir que tant le RFID que le digicode doivent être validés pour autoriser l'accès au coffre. En l'absence de cette double validation, il existe un risque potentiel si quelqu'un soulève manuellement le panneau de glissière, ce qui pourrait permettre l'accès au coffre sans la reconnaissance RFID. Il est nécessaire de s'assurer que l'identifiant RFID lu correspond à celui préalablement enregistré dans une variable. Veuillez consulter la section dédiée au code pour plus de détails.
 
-Partie code :
-Quelques petites modifications du code comme par exemple les angles des servo-moteurs et test RFID avec code de Mr Berlin
-Le code hexa de la carte blanche est 12 E5 A2 34
-Le code hexa du badge bleu est E9 D1 77 C1 
-Voir basic function dans la doc
+- **Renforcement de la connexion électrique**
+  Pour éviter tout débranchement intempestif avant une présentation, il est recommandé de souder les connexions avec des fils AWG32 sur une carte PCB vierge.
+
+- **Utilisation d'un boîtier étanche rechargeable**
+  Finalement, un boîtier étanche rechargeable sera utilisé à l'extérieur du coffre. Cette solution résout le problème potentiel de déverrouillage du coffre en cas de batterie déchargée, puisqu'il suffira de le recharger pour le déverrouiller. L'accès au port de charge sera disponible depuis l'extérieur, tout en préservant l'étanchéité du coffre grâce à la protection du panneau arrière de la porte.
+
+## Partie Code
+
+- **Ajustements du code**
+  Des modifications mineures du code seront apportées, notamment concernant les angles des servo-moteurs et les test RFID repris du code de Mr. Bermon.
+
+- **Codes hexadécimaux pour les cartes**
+  Les codes hexadécimaux des cartes à utiliser sont les suivants :
+  - Carte blanche : `12 E5 A2 34`
+  - Badge bleu : `E9 D1 77 C1`
+
