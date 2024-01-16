@@ -1,6 +1,6 @@
 # Séance du 15 janvier 2024
 
-Objectifs de la Séance :
+## Objectifs de la Séance :
 - Épaisseur du bois en fonction des vis
 - Dimensions des planches. 
 - Prendre Carte PCB pour souder.
@@ -24,14 +24,15 @@ On rajoute aux dimensions nécessaires pour la disposition des composants, les �
 
 ## Largeur coffre et Charnières :
 Un autre aspect recherché est qu'il n'y ai pas de charnières visibles ou visées depuis l'exterieur ce qui nuirrait fortement à l'esthétique et à la sécurité. J'ai mis la main sur des **charnières "invisibles"** utilisées pour les meubles de cuisine par exemple, qui seront vissées depuis l'intérieur du coffre.
-![image](https://github.com/upoulin/securino-vault/assets/134364274/8bee2263-e683-434c-8ffa-af0a815d9e78)
+ 
+ <img src="../../Images/charniere.jpg" alt="charniere" width=20% />
 
 Pour ça, il faut prévoir que la porte et le meuble (ici, le coffre) fassent la même largeur. Donc, on sait déjà que le **coffre fera 21 cm de largeur**. De plus, l'épaisseur des planches de bois utilisées pour faire les cotés du coffre, devront être de 2cm d'épaisseur pour accueillir les fixations des charnières. 
 
 Pour assurer la solidité de l'attache, il est préferable de prendre une **plaque plus épaisse pour le panneau arrière**, au risque que celui-ci se déchire sous la force des charnières, quand on ouvrira la porte. **Au lieu de 3mm nous prendrons du 10mm d'épaisseur**, sur lequel nous mettrons les charnières, fixées avec vis et boulons. 
 
 ### RFID à travers le bois :
-Etant prévu que le capteur RFID soit à l'intérieur du coffre, il faut que celui-ci puisse lire une information donnée par un badge à l'extérieur, donc à travers le bois. Après vérification, la lecture à correctement fonctionner à travers du bois de 3mm d'épaisseur.
+Etant prévu que le capteur RFID soit à l'intérieur du coffre, il faut que celui-ci puisse lire une information donnée par un badge à l'extérieur, donc à travers le bois. Après vérification, la lecture a correctement fonctionné à travers du bois de 3mm d'épaisseur.
 
 ### Assemblage du bois en "puzzle" :
 Il m'a été conseillé, lorsque je ferai découper le bois, de le faire avec un logiciel qui découpera les plaques en "puzzle", de manière à ce qu'elles puissent s'emboiter et tenir ensemble plus facilement. Nous devons encore y réflechir, le problème étant le fait que nous ne sommes pas sûre que la porte reste en place au moment où l'on tira dessus.
