@@ -1,4 +1,4 @@
-# Séance du 15 janvier 2024
+# Séance 4 : 15 janvier 2024
 
 ## Objectifs de la Séance :
 - Épaisseur du bois en fonction des vis
