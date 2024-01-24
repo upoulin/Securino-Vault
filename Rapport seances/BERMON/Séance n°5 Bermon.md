@@ -7,9 +7,10 @@
 
 ## Modélisation et découpe des planches de bois  :
 ### Modélisation du coffre :
-Pour avoir une vision plus concrète de ce à quoi allait ressembler le coffre, j'ai décidé de le modéliser en 3D. J'ai d'abord modélisé, dans **Tinkercad**, la porte puis le reste du coffre, le tout en fonction des dimensions données la semaine dernière. J'ai entre temps décidé que la **profondeur** du coffre sans la porte, serait de **20cm**. Le but est d'éviter qu'il soit disproportionné par rapport à la porte, mais ausssi trop profond pour qu'il ne prenne pas trop de place et trop de bois. Pour la modélisation simple j'ai utilisé Tinkercad m'a permis d'aller très vite, et d'avoir le tout en différentes pièces (photo ? notez la manivelle)
+Pour avoir une vision plus concrète de ce à quoi allait ressembler le coffre, j'ai décidé de le modéliser en 3D. J'ai d'abord modélisé, dans **Tinkercad**, la porte puis le reste du coffre, le tout en fonction des dimensions données la semaine dernière. J'ai entre temps décidé que la **profondeur** du coffre sans la porte, serait de **20cm**. Le but est d'éviter qu'il soit disproportionné par rapport à la porte, mais ausssi trop profond pour qu'il ne prenne pas trop de place et trop de bois. Pour la modélisation simple j'ai donc utilisé Tinkercad qui m'a permis d'aller très vite, et d'avoir le tout en différentes pièces 
+(photo ? notez la manivelle)
 
-Une fois fait, j'ai continué avec la modélisation des planches (de bois) de la porte, qui seront découpées au laser en vrai. Pour cela j'ai utilisé le site **MakerCase** pour générer une boite qui représente la porte. Comme je ne pouvais pas modifier une par une les épaisseurs des cotés, j'ai fait ma porte avec des planches de 5mm dépaisseur, disposants d'encoches, puis j'ai ouvert le fichier SVG généré par MakerCase dans Tinkercad pour pouvoir ajuster facliement la taille des encoches avec celles des épaisseurs de la face avant (3mm) et la face arrière (10mm). (photo ?)
+Une fois les mesures vérifiées , j'ai continué avec la modélisation des planches (de bois) de la porte, qui seront découpées au laser en vrai. Pour cela j'ai utilisé le site **MakerCase** pour générer une boite qui représente la porte. Comme je ne pouvais pas modifier une par une les épaisseurs des cotés, j'ai fait ma porte avec des planches de 5mm dépaisseur, disposants d'encoches, puis j'ai ouvert le fichier SVG généré par MakerCase dans Tinkercad pour pouvoir ajuster facliement la taille des encoches avec celles des épaisseurs de la face avant (3mm) et la face arrière (10mm). (photo ?)
 Ensuite, j'ai fait la même chose pour le reste du coffre en faisant une boîte ouverte avec les cotés de 20mm d'épaisseur sur les côtés gauche et droit et 10mm pour le reste. 
 
 Il était question de mettre une planche dessous qui soit plus épaisse pour accueiller des vis qui fixeraient des pieds, mais ça ne sera pas nécessaire car nous collerons des patins à la place.
@@ -19,7 +20,9 @@ Une fois la modélisation terminée, j'ai pu demander à un professeur pour que 
 
 ## Placement des composants :
 ### Modélisation d'un support de servo moteur :
-Pour fixer à la porte le servo controlant la montée et descente du cache clavier, il fallait modéliser un support spécifique pour que celui-ci soit accroché au panneau avant. Afin que la traction puisse se faire au mieux, l'enrouleur fixé sur l'axe du servo doit être aligné par rapport au plan de trajectoire du cable , il est donc nécessaire de retourner le servo moteur par rapport au panneau . De plus, le support ne doit pas dépassser de la porte et doit aussi prendre en compte, la largeur et la hauteur de l'enrouleur ainsi que celle du servo. Après rélexion, j'ai finalement modélisé et imprimé la pièce suivante :  
+Pour fixer à la porte le servo controlant la montée et descente du cache clavier, il fallait modéliser un support spécifique pour que celui-ci soit accroché au panneau avant. Afin que la traction puisse se faire au mieux, l'enrouleur fixé sur l'axe du servo doit être aligné par rapport au plan de trajectoire du cable , il est donc nécessaire de retourner le servo moteur par rapport au panneau . De plus, le support ne doit pas dépassser de la porte et doit aussi prendre en compte, la largeur et la hauteur de l'enrouleur ainsi que celle du servo. 
+
+Après rélexion, j'ai finalement modélisé et imprimé la pièce suivante :  
 (photos)
 
 
