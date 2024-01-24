@@ -12,7 +12,15 @@ Pour avoir une vision plus concrète de ce à quoi allait ressembler le coffre, 
 Une fois fait, j'ai continué avec la modélisation des planches (de bois) de la porte, qui seront découpées au laser en vrai. Pour cela j'ai utilisé le site **MakerCase** pour générer une boite qui représente la porte. Comme je ne pouvais pas modifier une par une les épaisseurs des cotés, j'ai fait ma porte avec des planches de 5mm dépaisseur, disposants d'encoches, puis j'ai ouvert le fichier SVG généré par MakerCase dans Tinkercad pour pouvoir ajuster facliement la taille des encoches avec celles des épaisseurs de la face avant (3mm) et la face arrière (10mm). (photo ?)
 Ensuite, j'ai fait la même chose pour le reste du coffre en faisant une boîte ouverte avec les cotés de 20mm d'épaisseur sur les côtés gauche et droit et 10mm pour le reste. 
 
-Il était question de mettre une planche dessous qui soit plus épaisse pour accueiller des vis qui fixeraient des pieds, mais ça ne sera pas nécessaire car à la place, nous collerons des patins.
+Il était question de mettre une planche dessous qui soit plus épaisse pour accueiller des vis qui fixeraient des pieds, mais ça ne sera pas nécessaire car nous collerons des patins à la place.
 
 ### Découpe des planches :
-Une fois la modélisation terminée, j'ai pu demander à un professeur pour que l'on puisse faire découper les planches avant la séance du Vendredi. Je n'ai d'abord fait découper que les pièces d'épaisseur 3 et 5mm (la porte sans le panneau arrière), pour vérifier qu'il n'y ait pas de problème. J'ai fait découper les plaques de 10mm d'épaisseur le jour de la séance pour pouvoir "fermer" la porte avec son panneau arrière et assembler le reste du coffre.  
+Une fois la modélisation terminée, j'ai pu demander à un professeur pour que l'on puisse faire découper les planches avant la séance du Vendredi. Je n'ai d'abord fait découper que les pièces d'épaisseur 3 et 5mm (la porte sans le panneau arrière), pour vérifier qu'il n'y ait pas de problème et que les composants se plaçaient bien. J'ai ensuite fait découper les plaques de 10mm d'épaisseur le jour de la séance, pour pouvoir "fermer" la porte avec son panneau arrière et assembler le reste du coffre.  
+
+## Placement des composants :
+### Modélisation d'un support de servo moteur :
+Pour fixer à la porte le servo controlant la montée et descente du cache clavier, il fallait modéliser un support spécifique pour que celui-ci soit accroché au panneau avant. Afin que la traction puisse se faire au mieux, l'enrouleur fixé sur l'axe du servo doit être aligné par rapport au plan de trajectoire du cable , il est donc nécessaire de retourner le servo moteur par rapport au panneau . De plus, le support ne doit pas dépassser de la porte et doit aussi prendre en compte, la largeur et la hauteur de l'enrouleur ainsi que celle du servo. Après rélexion, j'ai finalement modélisé et imprimé la pièce suivante :  
+(photos)
+
+
+
