@@ -15,6 +15,7 @@ Une manivelle sera sûrement présente sur le coffre pour pouvoir ouvrir le coff
 
 Une fois les mesures vérifiées , j'ai continué avec la modélisation des planches (de bois) de la porte, qui seront découpées au laser en vrai. Pour cela j'ai utilisé le site **MakerCase** pour générer une boite qui représente la porte. Comme je ne pouvais pas modifier une par une les épaisseurs des cotés, j'ai fait ma porte avec des planches de 5mm dépaisseur, disposants d'encoches, puis j'ai ouvert le fichier SVG généré par MakerCase dans Tinkercad pour pouvoir ajuster facilement la taille des encoches avec celles des épaisseurs de la face avant (3mm) et la face arrière (10mm).
 
+<img src="../../Images/porte_encoches.jpg" alt="porte avec encochesTinkercad" width=20% />
 
 Ensuite, j'ai fait la même chose pour le reste du coffre en faisant une boîte ouverte avec les cotés de 20mm d'épaisseur sur les côtés gauche et droit et 10mm pour le reste. 
 A ça j'ai ajouté le trou et support du cache de clavier qui seront aussi attachés avec un système d'encoches, fait à la main cette fois.
@@ -29,7 +30,7 @@ Une fois la modélisation terminée, j'ai pu demander à un professeur pour que 
 Pour fixer à la porte le servo controlant la montée et descente du cache clavier, il fallait modéliser un support spécifique pour que celui-ci soit accroché au panneau avant. Afin que la traction puisse se faire au mieux, l'enrouleur fixé sur l'axe du servo doit être aligné par rapport au plan de trajectoire du cable , il est donc nécessaire de retourner le servo moteur par rapport au panneau . De plus, le support ne doit pas dépassser de la porte et doit aussi prendre en compte, la largeur et la hauteur de l'enrouleur ainsi que celle du servo. 
 
 Après rélexion, j'ai finalement modélisé et imprimé la pièce suivante :  
-(photos)
 
+<img src="../../Images/dessin_sup_servo.jpg" alt="dessin support servo retourné" width=20% /> <img src="../../Images/support_servo_rev.jpg" alt="support servo retourné" width=20% />
 
 
