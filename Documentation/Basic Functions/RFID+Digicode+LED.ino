@@ -3,8 +3,8 @@
 #include <SPI.h>
 #include <MFRC522.h>
 
-#define SS_PIN 10
-#define RST_PIN 9
+#define SS_PIN A1
+#define RST_PIN A0
     
 #define AccesFlag_PIN 2
 #define Gate_PIN 3
