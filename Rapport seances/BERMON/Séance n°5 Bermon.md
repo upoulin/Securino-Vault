@@ -23,7 +23,7 @@ A ça j'ai ajouté le trou et support du cache de clavier qui seront aussi attac
 Il était question de mettre une planche dessous qui soit plus épaisse pour accueiller des vis qui fixeraient des pieds, mais ça ne sera pas nécessaire car nous collerons des patins à la place.
 
 ### Découpe des planches :
-Une fois la modélisation terminée, j'ai pu demander à un professeur pour que l'on puisse faire découper les planches avant la séance du Vendredi. Je n'ai d'abord fait découper que les pièces d'épaisseur 3 et 5mm (la porte sans le panneau arrière), pour vérifier qu'il n'y ait pas de problème et que les composants se plaçaient bien. J'ai ensuite fait découper les plaques de 10mm d'épaisseur le jour de la séance, pour pouvoir "fermer" la porte avec son panneau arrière et assembler le reste du coffre.  
+Une fois la modélisation terminée, j'ai pu demander à un professeur pour que l'on puisse faire découper les planches avant la séance du Vendredi. Je n'ai d'abord fait découper que les pièces d'épaisseur 3 et 5mm (la porte sans le panneau arrière), pour vérifier qu'il n'y ait pas de problème et que les composants se plaçaient bien. Quant au reste du coffre, je n'ai pas fait découper les plaques de 10mm d'épaisseur le jour de la séance comme je l'avais prévu, car j'ai du revoir le système de fermeture qui nécessitera surement de faire une découpe précise dans certaine(s) planche(s).
 
 ## Placement des composants :
 ### Modélisation d'un support de servo moteur :
@@ -33,4 +33,11 @@ Après rélexion, j'ai finalement modélisé et imprimé la pièce suivante :
 
 <img src="../../Images/dessin_sup_servo.jpg" alt="dessin support servo retourné" width=20% /> <img src="../../Images/support_servo_rev.jpg" alt="support servo retourné" width=20% />
 
+## Soudage sur carte PCB :
+Afin d'alimenter tous les composants, il est néccessaire que nous disposions soit d'une Breadboard, soit d'une carte PCB à souder, pour y faire les connexions 5V et GND. J'ai pu avoir une de ces cartes sur laquelle j'ai passé pas mal de temps. Par manque d'expérience et peur de faire une bétîse, j'ai longuement hésité au placement des fils et des résistances que je n'ai pas fini de souder, chose que je devrai finir la prochaine fois.
+
+## Système de vérouillage physique du coffre :
+Dans la continuité de ma réflexion sur certaines caractéristiques du coffre, je me suis repenché sur le système de vérouillage physique avec le servo moteur. La porte faisant toute la largeur du coffre et le servo devant êre fixé au panneau avant, je pensais initialement faire dépasser un embout relié au servo moteur qui serait venu se loger dans le coté du coffre. Or cela impliquait que le support de servo ou l'embout soit d'une assez grande hauteur pour traverser toute la porte. Dans les deux cas, cela aurait engendré une forte contrainte et surement une casse, si l'on venait à tirer sur la porte du coffre vérouillé. 
+
+A la place, je pense mettre sur le flanc des planches gauche du coffre, soit une **platine à oeil** soit un **piton à visser / "vis à anneau"**. Un embout (modélisé en 3D) en forme de crochet, attaché au servo, viendrait se mettre dans l'anneau fixé à la planche, pour vérouiller la porte et ça de manière plus solide. J'ai demandé à un professeur si il disposait d'une platine à oeil ou d'un piton à visser mais il m'a répondu que non. Je devrai donc soit m'en procurer, soit modéliser la pièce et l'imprimer en 3D.
 
