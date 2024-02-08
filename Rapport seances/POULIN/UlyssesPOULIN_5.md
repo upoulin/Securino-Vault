@@ -12,4 +12,4 @@ Suite à une réflexion, je considère probablement abandonner l'utilisation des
 
 Pour la séance suivante, je prévois de me pencher sur l'intégration des servo-moteurs et leur mise en œuvre dans le code. Aujourd'hui, j'ai principalement utilisé la fonction `print` pour afficher l'état de la porte, mais la prochaine étape consistera à opérationnaliser les servo-moteurs dans le système.
 
-<img src="../../Images/test_code_completV1.png" alt="test_finaux" width=40% />
+<img src="../../Images/test_code_completV1.jpg" alt="test_finaux" width=40% />
