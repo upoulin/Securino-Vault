@@ -2,7 +2,7 @@
 
 ## Objectifs de la Séance :
 - Test de coulissage du cache clavier
-- Continuer modélisation et découpe les planches de bois du coffre.
+- Continuer la modélisation et la découpe les planches de bois du coffre.
 - Modéliser et imprimer 3D des dernières pièces.
 - Terminer soudage carte PCB.
 
