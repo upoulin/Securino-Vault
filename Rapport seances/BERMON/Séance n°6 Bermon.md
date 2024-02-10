@@ -17,6 +17,7 @@ Je comptais les faire découper aujourd'hui, mais le temps que je devais y passe
 ## Modélisation et Impression 3D de pièces
 Dans la continuité de l'élaboration du système de vérouillage physique, il nous fallait modéliser et imprimer deux pièces qui sont le support pour le servomoteur, et le crochet qui y est attaché :
 ### Support du servomoteur de verrouillage
+ <img align = "right" src="../../Images/Support_sans_L.jpg" alt="coffre Tinkercad" width=20% />
 Le support est semblable à celui utilisé pour l'enrouleur, mais cette fois, il retient le servo vissé, non pas verticalement par rapport à la planche, mais plutôt horizontalement. (photo)
 ### Crochet du servomoteur
 Pour faire le système de loquet entre le servo et la vis à anneau, il a fallu que je modélise une pièce en forme de "L" qui fasse office de crochet. Elle se clipse à un des embouts d'origine fourni avec le servomoteur, et après une rotation de 90° de ce dernier, la pièce viendra se loger dans l'anneau de la vis et ainsi maintenir la porte bloquée. La longueur a été choisie de manière à ce que le crochet puisse de mettre dans l'anneau avec la vis complètement rentrée dans le bois. Notez l'ajout d'un congé dans l'angle du "L" pour réduire la contrainte, et ainsi éviter que la pièce ne casse lorsque l'on tire sur la porte fermée. (photo)
