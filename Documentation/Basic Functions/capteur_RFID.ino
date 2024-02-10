@@ -1,8 +1,8 @@
 #include <SPI.h>
 #include <MFRC522.h>
 
-#define SS_PIN A1
-#define RST_PIN A0
+#define SS_PIN 9
+#define RST_PIN 10
     
 #define AccesFlag_PIN 2
 #define Gate_PIN 3
@@ -37,7 +37,7 @@ void setup()
  
 void loop() 
 {
-  // Initialisé la boucle si aucun badge n'est présent 
+  // Initialiser la boucle si aucun badge n'est présent 
   if ( !rfid.PICC_IsNewCardPresent())
     return;
 
@@ -54,60 +54,19 @@ void loop()
   }
 
   // Vérification du code 
-  CodeVerif= GetAccesState(Code_Acces,nuidPICC); 
-  if (CodeVerif!=1)
-  {
-    Count_acces+=1;
-    if(Count_acces==Max_Acces)
-    {
-     // Dépassement des tentatives (clignotement infinie) 
-     while(1)
-     {
-      digitalWrite(AccesFlag_PIN, HIGH);
-      delay(200); 
-      digitalWrite(AccesFlag_PIN, LOW);
-      delay(200); 
-      // Affichage 
-      Serial.println("Alarme!");
-     }
-    }
-    else
-    {
-      // Affichage 
-      Serial.println("Code érroné");
-    
-      // Un seul clignotement: Code erroné 
-      digitalWrite(AccesFlag_PIN, HIGH);
-      delay(1000); 
-      digitalWrite(AccesFlag_PIN, LOW);
-    }
-  }
+  CodeVerif = GetAccesState(Code_Acces,nuidPICC); 
+  if (CodeVerif != 1)
+  {Serial.println("Code érroné");}
   else
-  {
-    // Affichage 
-    Serial.println("Ouverture de la porte");
-    
-    // Ouverture de la porte & Initialisation 
-    digitalWrite(Gate_PIN, HIGH);
-    delay(3000); 
-    digitalWrite(Gate_PIN, LOW);
-    Count_acces=0; 
-  }
+  {Serial.println("Accès au digicode");}
 
-  // Affichage de l'identifiant 
-  Serial.println(" L'UID du tag est:");
-  for (byte i = 0; i < 4; i++) 
-  {
-    Serial.print(nuidPICC[i], HEX);
-    Serial.print(" ");
-  }
-  Serial.println();
 
-  // Re-Init RFID
+  // Reinitialisation du  RFID
   rfid.PICC_HaltA(); // Halt PICC
   rfid.PCD_StopCrypto1(); // Stop encryption on PCD
 }
 
+// Fonction permettant de vérifier si le tag RFID est le bon 
 byte GetAccesState(byte *CodeAcces,byte *NewCode) 
 {
   byte StateAcces=0; 
@@ -117,4 +76,3 @@ byte GetAccesState(byte *CodeAcces,byte *NewCode)
   else
     return StateAcces=0; 
 }
-
