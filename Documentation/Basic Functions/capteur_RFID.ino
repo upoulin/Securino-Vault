@@ -3,10 +3,6 @@
 
 #define SS_PIN 9
 #define RST_PIN 10
-    
-#define AccesFlag_PIN 2
-#define Gate_PIN 3
-#define Max_Acces 3
 
 byte Count_acces=0; 
 byte CodeVerif=0; 
@@ -26,13 +22,6 @@ void setup()
 
   // Init MFRC522 
   rfid.PCD_Init(); 
-
-  // Init LEDs 
-  pinMode(AccesFlag_PIN, OUTPUT);
-  pinMode(Gate_PIN, OUTPUT);
-  
-  digitalWrite(AccesFlag_PIN, LOW);
-  digitalWrite(Gate_PIN, LOW);
 }
  
 void loop() 
