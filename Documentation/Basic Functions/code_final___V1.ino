@@ -7,6 +7,7 @@
 #define RST_PIN 10
 #define Servo_B 18
 #define Servo_A 19
+#define buzzer 8
 
 // Partie Servo Moteur
 Servo servo_A; //servo a désigne le servo de la porte glissante
@@ -45,13 +46,24 @@ char secretCode[] = { '1', '2', '3', '4' };
 
 char numbers[] = { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '#', "*"};
 
-int compteur = 0;  // Permet de compte le nombre de touche appuyée
+int compteur = 0;  // Permet de compter le nombre de touche appuyée
+
+int compteurChangementCode =0;
 
 char code[4]; // Contient les touches tapées par l'utilisateur
+
+// Divers
+int compteurBlocage = 0; // Permet de compter les tentatives avant le blocage
+
+int compteurBuzzer = 0; // Permet de stopper le buzzer a un moment donné
+
 
 void setup() 
 {
   Serial.begin(9600);
+
+  // On définit le buzzer en sortie
+  pinMode(buzzer, OUTPUT);
 
   // Initialisation du bus SPI
   SPI.begin(); 
@@ -126,7 +138,7 @@ void loop()
           Serial.println("Le coffre doit-être dévérouillé pour changer le code");
         }
 
-        if (keypad_matrix == 'D') { // Si on a 4 valeurs, on vérifie si le code est bon sinon on remet le compteur à 0
+        if (keypad_matrix == 'D') { // Si on a 4 valeurs, on vérifie si le code est bon
           if (code[0] == secretCode[0] && code[1] == secretCode[1] && code[2] == secretCode[2] && code[3] == secretCode[3]) {  // Si le code est bon
             Serial.println("Dévérouillage du coffre");
             locked = false;
@@ -138,8 +150,20 @@ void loop()
 
           if (code[0] != secretCode[0] || code[1] != secretCode[1] || code[2] != secretCode[2] || code[3] != secretCode[3]) {  // Si le code n'est pas bon
             Serial.println("Code éronné");
+            compteurBlocage = compteurBlocage + 1;
+            if(compteurBlocage > 5){
+              Serial.println("Coffre bloqué");
+              while(compteurBuzzer < 50){
+                tone (buzzer, 600); // allume le buzzer actif arduino
+                delay(50);
+                tone(buzzer, 900); // allume le buzzer actif arduino
+                delay(50);
+                noTone(buzzer);  // désactiver le buzzer actif arduino
+                compteurBuzzer = compteurBuzzer+1;
+              }
+              delay(300000); // On attend 300 secondes (5min) pour que le coffre soit réutilisable
+            }
           }
-          compteur = 0;
         }
       }
     }
@@ -169,17 +193,17 @@ void loop()
         }
 
         if (keypad_matrix == 'C') {
-          compteur = 0;
+          compteurChangementCode = 0;
           Serial.println("Changement du code, entrez 4 chiffres");
-          while (compteur < 4)
+          while (compteurChangementCode < 4)
           {
             char keypad_matrix = mon_keypad.getKey();  // Récupère la touche appuyé
             if (keypad_matrix){
               //vérifier si le code contient bien que des nombres et # et *
               Serial.println(keypad_matrix);
 
-              secretCode[compteur] = keypad_matrix;  // Met la valeur dans la liste
-              compteur += 1;}
+              secretCode[compteurChangementCode] = keypad_matrix;  // Met la valeur dans la liste
+              compteurChangementCode += 1;}
           }
           Serial.println("Code changé");
         }
