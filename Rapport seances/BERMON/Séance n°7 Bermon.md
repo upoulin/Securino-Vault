@@ -19,10 +19,17 @@ Le premier étant des **dimensions** prévues pour le reste du coffre **très/tr
 Le deuxième problème était que je voulais initialement faire découper sur du bois de 1cm d'épaisseur et faire les cotés du coffre avec 2cm d'épaisseur (voir rapports précédents). Or contrairement à ce que pensais tout au long du projet, il n'y avait **pas de plaque de 1cm d'épaisseur**, que 0,3cm et 0,5cm. Il aurait fallu découper 4 fois les mêmes plaques de 0,5cm pour un seul côté.
 
 Le deuxième problème amplifie le premier, faisant que la consommation de bois allait être excessive et j'ai donc abandonné la découpe et dû revoir quasiment entièrement le modèle du coffre par rapport à sa taille et les épaisseurs de planches. Une "chance" de m'en être aperçu bien avant la séance.
-Une autre "chance" est qu'en remodélisant le coffre, je me suis rendu compte que **la fixation des charnières prévue initialement aurait elle aussi posé problème**. Le fait que la porte et les côtés soit d'épaisseurs différentes, aurait provoquer soit une butée de la porte soit un désalignement par rapport au reste. Les charnières invisibles prévues initialement ne pouvant être utilisées, j'ai décidé de faire un système de remplacement.
+Une autre "chance" est qu'en remodélisant le coffre, je me suis rendu compte que **la fixation des charnières prévue initialement aurait elle aussi posé problème**. Le fait que la porte et les côtés soit d'épaisseurs différentes, aurait provoqué soit une butée de la porte soit un désalignement par rapport au reste. Les charnières invisibles prévues initialement ne pouvant être utilisées, j'ai décidé de faire un système de remplacement (voir plus bas).
 
-### Modélisation Charnières :
-Pour résoudre le problème, j'ai pris un modèle 3D de charnières sur le site **Thingiverse** auquel j'ai sur un côté élargie horizontalement les trous de 1cm pour que les vis de la porte puisse faire une translation et une rotation et ainsi faire que la porte ne bute pas contre le coffre qaund on l'ouvre. (photo)
+### Changement des dimensions :
+Les **épaisseurs des cotés** passent de **1cm au lieu de 2cm** avec de plaques de 0,5cm collées. La **profondeur du coffre est de 10cm au lieu de 20cm** pour mieux rentrer sur les plaques de découpe.
+
+### Modélisation des charnières :
+Pour résoudre le problème de charnires, j'ai pris un modèle 3D de charnières sur le site **Thingiverse** auquel j'ai sur un côté élargie horizontalement les trous de 1cm pour que les vis de la porte puisse faire une translation et une rotation et ainsi faire que la porte ne bute pas contre le coffre qaund on l'ouvre. (photo)
+
+### Changement du système de loquet :
+Avec le changement d'épaisseur, j'ai décidé de remplacer la vis à anneau par une pièce imprimée en 3D, qui se vissera sur le coté du bois de 5mm d'épaisseur, la vis ne le permettant pas. (photo)
+A la fermeture, le crochet (que j'ai du usiner pour qu'il rentre), viendra se bloquer dans la fente et immobiliser la porte. Un trou dans le panneau arrière de la porte a été fait pour que la porte puisse glisser sans toucher le loquet lorsqu'elle est dévérouillée. (photo)
 
 ### Découpage ou Tests :
 Découpage de seulement 2 épaisseurs de cotés et des planches haut/bas. La machine était ensuite réservée par d'autres personnes, et je n'ai pas pu continuer, ce qui fait que je n'avancerai pas aussi vite que prévu. En attendant, j'ai fait des **tests de perçage, vissage et de fonctionnement sur des chutes bois, pour la serrure et les charnières** et ces tests se sont avérés **concluants**.
