@@ -24,3 +24,8 @@ Le deuxième problème amplifie le premier, faisant que la consommation de bois 
 Une autre "chance" est qu'en remodélisant le coffre, je me suis rendu compte que **la fixation des charnières prévue initialement aurait elle aussi posé problème**. Le fait que la porte et les côtés soit d'épaisseurs différentes, aurait fait soit décaler la porte de 1cm sur le coté et celle-ci n'aurait pas était alignée avec le reste du coffre, soit si elle avait était alignée, elle ne se serait pas ouverte complètement, butant à un moment contre le coffre.
 
 Je suis donc retrouvé confronté au fait que les charnières invisibles prévues initialement, n'allaient surêment pas pouvoir être fixées correctement et sans dépasser sur le coté et qu'il me fallait donc **trouver une alternative**, ne comptant renoncer à "l'invisibilité" des charnières.
+
+Modélisation Charnières :
+Pour remplacer les Charnières invisibles prévues initialement, le problème évoqué plus haut m'a permis d'avoir l'idée suivante : J'ai pris un modèle 3d de Charnières auquel j'ai sur un côté élargie horizontalement les trous de 1cm pour que les vis de la porte puisse translater et ainsi faire que la porte ne bute pas contre le coffre. 
+
+Pour ce qui est du découpage, je n'ai pas pu faire dans son entièreté mais seulement celui de 2 épaisseurs de cotés et des planches haut/bas. La machine était ensuite réservée par d'autres personnes, et je n'ai pas pu continuer, ce qui fait que je n'avancerai pas aussi vite que prévu. J'en ai tout de même profité pour faire des tests de perçage, vissage et de fonctionnement sur des chutes bois, pour la serrure et les Charnières et ces tests se sont avérés concluants.
