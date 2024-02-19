@@ -21,3 +21,5 @@ Au final, je prévois de maintenir l'utilisation de la fonction `delay` car je n
 ### Branchements finaux
 
 J'ai testé le système avec la carte PCB que David a soudée la semaine dernière, et le système est fonctionnel. Il a également été testé avec une alimentation sur batterie, ce qui confirme son bon fonctionnement. Il ne me reste plus qu'à fixer tous les branchements à la porte, et ma partie sera terminée.
+
+<img src="../../Images/final_v1.jpg" alt="branchement_final" width=40% />
