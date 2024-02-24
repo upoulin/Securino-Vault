@@ -20,4 +20,7 @@ J'ai donc du mesurer la hauteur du trou pour ensuite déterminer l'emplacement o
 Il a ensuite fallu positionner le servo au bon endroit dans la porte, pour qu'en position fermée/vérouillée, le crochet qui y est attaché, vienne se placer correctement dans le loquet du coffre. 
 
 ### Usinage et vissage des charnières :
-
+Les charnières imprimées la semaine précédente, ont dû être (ré)usinées car la longueur des fentes dans lesquelles les vis devaient coulisser, n'était pas suffisante pour que 'on puisse ouvrir la porte complètement. 
+(photo)
+J'ai donc pris une Drémel, avec laquele j'ai prolongé les fentes vers l'intérieur des charnières, jusqu'à obtenir une longueur suffisante. Le problème suivant a été que mon usinage n'était pas très précis et qu'à force de percer, la largeur des fentes à cet endroit est devenue trop grande et que les têtes de vis pouvaient passer à travers les charnières, faisant que la porte aurait pu se décrocher dans le futur. J'ai donc mis des rondelles sur les vis, hors celles-ci étant assez large pour corriger le problème précédent, elles sont venues buter contre la partie intérieure des charnières, et donc empécher le mouvement restant des vis et par conséquent l'ouverture de la porte.
+J'ai usiné là aussi la partie où venaient buter les rondelles pour laisser plus d'espace, ce qui fait désormais ça fonctionne mais parfois les rondelles viennent se bloquer dans les fentes et bloquer/rendre difficile le mouvement d'ouverture. Pendant les vacances je vais sûrement designer des rondelles ou capuchons de vis en forme de rectangle, afin que les vis ne partent pas des charnières, et que rien ne bute sur les charnières. (photo dessin).
