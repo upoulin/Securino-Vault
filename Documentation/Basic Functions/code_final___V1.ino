@@ -8,6 +8,8 @@
 #define Servo_B 18
 #define Servo_A 19
 #define buzzer 8
+#define led_Rouge 16
+#define led_Verte 17
 
 // Partie Servo Moteur
 Servo servo_A; //servo a désigne le servo de la porte glissante
@@ -76,6 +78,13 @@ void setup()
   servo_B.attach(Servo_B);
   servo_A.write(angle);
   servo_B.write(angle);
+
+  // Initialisation des leds
+  pinMode(led_Rouge, OUTPUT);
+  pinMode(led_Verte, OUTPUT);
+  digitalWrite(led_Rouge, LOW);
+  digitalWrite(led_Verte, HIGH);
+
 }
  
 void loop() 
