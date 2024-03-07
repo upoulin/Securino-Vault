@@ -140,6 +140,8 @@ void loop()
     // Maintenant qu'on a l'accès physique au digicode, il faut s'occuper de ses fonctions du digicode
 
     while(locked == true){
+    digitalWrite(led_Rouge, LOW);
+    digitalWrite(led_Verte, HIGH);
       //mettre une boucle while
       char keypad_matrix = mon_keypad.getKey();  // Récupère la touche appuyé
       if (keypad_matrix) {                       // Si une touche est appuyée
@@ -199,6 +201,8 @@ void loop()
       }
     }
     while(locked == false){
+    digitalWrite(led_Rouge, HIGH);
+    digitalWrite(led_Verte, LOW);
       char keypad_matrix = mon_keypad.getKey();  // Récupère la touche appuyé
       if (keypad_matrix) {                       // Si une touche est appuyée
 
