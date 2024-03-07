@@ -110,7 +110,13 @@ void loop()
   if (CodeVerif != 1)
   {
     Serial.println("Code érroné");
-    // Faire clignoter la led deux fois
+    digitalWrite(led_Rouge, HIGH);
+    delay(300);
+    digitalWrite(led_Rouge, LOW);
+    delay(300);
+    digitalWrite(led_Rouge, HIGH);
+    delay(300);
+    digitalWrite(led_Rouge, LOW);
   }
   else
   {
