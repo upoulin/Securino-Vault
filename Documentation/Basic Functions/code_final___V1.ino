@@ -82,7 +82,7 @@ void setup()
   // Initialisation des leds
   pinMode(led_Rouge, OUTPUT);
   pinMode(led_Verte, OUTPUT);
-  digitalWrite(led_Rouge, LOW);
+  digitalWrite(led_Rouge, HIGH);
   digitalWrite(led_Verte, HIGH);
 
 }
@@ -114,6 +114,11 @@ void loop()
   }
   else
   {
+    digitalWrite(led_Rouge, HIGH);
+    digitalWrite(led_Verte, LOW);
+    delay(1000);
+    digitalWrite(led_Rouge, HIGH);
+    digitalWrite(led_Verte, HIGH);
     Serial.println("Accès au digicode");
 
     // Faire tourner le servo_A de 180°
@@ -122,6 +127,9 @@ void loop()
       servo_A.write(angle);               
       delay(20);                   
     }
+    // Allumer la led rouge en attente du digicode
+    digitalWrite(led_Rouge, LOW);
+    digitalWrite(led_Verte, HIGH);
 
     // Maintenant qu'on a l'accès physique au digicode, il faut s'occuper de ses fonctions du digicode
 
@@ -140,7 +148,12 @@ void loop()
         }
 
         if (keypad_matrix == 'B') { 
-          Serial.println("Coffré déja vérouillé");
+          Serial.println("Coffré déja vérouillé, verrouillage du digicode");
+          for (angle = 180; angle > 0; angle--) {
+            servo_A.write(angle);
+            delay(20);
+          }
+          
         }
 
         if (keypad_matrix == 'C') {
@@ -155,6 +168,9 @@ void loop()
               servo_B.write(angle);
               delay(20);
             }
+          // Le coffre est dévérouillé, on affiche donc la led verte
+          digitalWrite(led_Rouge, HIGH);
+          digitalWrite(led_Verte, LOW);
           }
 
           if (code[0] != secretCode[0] || code[1] != secretCode[1] || code[2] != secretCode[2] || code[3] != secretCode[3]) {  // Si le code n'est pas bon
@@ -170,7 +186,7 @@ void loop()
                 noTone(buzzer);  // désactiver le buzzer actif arduino
                 compteurBuzzer = compteurBuzzer+1;
               }
-              delay(300000); // On attend 300 secondes (5min) pour que le coffre soit réutilisable
+              delay(30000); // On attend 30 secondes pour que le coffre soit réutilisable
             }
           }
         }
@@ -188,11 +204,14 @@ void loop()
 
         if (keypad_matrix == 'B') {  // Si on appuie sur B, on vérouille le coffre
           Serial.println("Verrouillage du coffre");
+          digitalWrite(led_Rouge, LOW);
+          digitalWrite(led_Verte, HIGH);
           compteur = 0;
           for (angle = 90; angle > 0; angle--) {
             servo_B.write(angle);
             delay(20);
           }
+          
           delay(1000);
           for (angle = 180; angle > 0; angle--) {
             servo_A.write(angle);
@@ -203,6 +222,8 @@ void loop()
 
         if (keypad_matrix == 'C') {
           compteurChangementCode = 0;
+          digitalWrite(led_Rouge, LOW);
+          digitalWrite(led_Verte, LOW);
           Serial.println("Changement du code, entrez 4 chiffres");
           while (compteurChangementCode < 4)
           {
@@ -214,10 +235,19 @@ void loop()
               secretCode[compteurChangementCode] = keypad_matrix;  // Met la valeur dans la liste
               compteurChangementCode += 1;}
           }
+          digitalWrite(led_Rouge, HIGH);
+          digitalWrite(led_Verte, LOW);
           Serial.println("Code changé");
         }
           if (keypad_matrix == 'D') {
             Serial.println("Coffre déja dévérouillé");
+            digitalWrite(led_Verte, HIGH);
+            delay(300);
+            digitalWrite(led_Verte, LOW);
+            delay(300);
+            digitalWrite(led_Verte, HIGH);
+            delay(300);
+            digitalWrite(led_Verte, LOW);
           }
       }
     }
